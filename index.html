@@ -24,9 +24,9 @@
             <fieldset>
               <legend>Temperature</legend>
               <label for="c">Celsius</label> <br />
-              <input type="number" id="c" /> <br />
-              <button id="temperature-button" type="button"> Convert </button> <br />
-              <input type="number" id="f" /> <br />
+              <input type="number" id="cels" placeholder="#" /> <br />
+              <button id="temperature-button" type="button" onclick="temperature()"> Convert </button> <br />
+              <input type="number" id="fahre" placeholder="#" /> <br />
               <label for="f">Fahrenheit</label>
             </fieldset>
           </article>
@@ -48,11 +48,11 @@
                     <legend>Weight</legend>
                     <!-- Label for Weight input -->
                     <label for="Weight">Kilograms</label> <br/>
-                    <input type="number" id="kg" placeholder="#"> <br/>
+                    <input type="number" id="kilog" placeholder="#"> <br/>
                     <!-- The conversion button -->
-                    <button id="weight"> Convert </button> <br/>
+                    <button id="weight-btn" onclick="weight()"> Convert </button> <br/>
                     <!-- Label for Weight output -->
-                    <input type="number" id="lbs" placeholder="#"> <br/>
+                    <input type="number" id="pounds" placeholder="#"> <br/>
                     <label for="Weight">Pounds</label>
                 </fieldset>
             </article>
@@ -74,11 +74,11 @@
                         <legend>Distance</legend>
                         <!-- Label for Distance input -->
                         <label for="Distance">Kilometers</label> <br/>
-                        <input type="number" id="km" placeholder="#"> <br/>
+                        <input type="number" id="kilom" placeholder="#"> <br/>
                         <!-- The conversion button -->
-                        <button id="distance"> Convert </button> <br/>
+                        <button id="distance-button" onclick="distance()"> Convert </button> <br/>
                         <!-- Label for Distance output -->
-                        <input type="number" id="m" placeholder="#"> <br/>
+                        <input type="number" id="miles" placeholder="#"> <br/>
                         <label for="Distance">Miles</label>
                     </fieldset>
                 </article>
@@ -88,5 +88,6 @@
             </div>
     </section>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

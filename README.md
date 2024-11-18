@@ -1,4 +1,4 @@
 ## IBM cert lab
 
 ## Overview
-No functionality, just the flat html, 
+Very basic site for conversion.
